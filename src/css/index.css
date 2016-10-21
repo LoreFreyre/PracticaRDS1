@@ -1,3 +1,14 @@
-body{
-	background-color: red; 
-}
+/*//HEADER*
+
+.class.class2{
+	Se aplica el estilo a la etiqueta que tenga esas dos clases
+
+	.class .class2{
+	
+	Una etiqueta que tenga una clase 2 ye ste dentro de una clase
+
+	.class > class2
+
+	Solo aplica la clase para el hijo
+	}
+}/
