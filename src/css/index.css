@@ -1,46 +1,132 @@
-/*HEADER*/
 
-.header{
-	background-color: green;
+/*GENERAL*/
+
+body, html {
+	font-size: 16px;
+}
+
+/* HEADER*/
+
+.header {
 	height: 90px;
 }
 
-
-.header-logo{
+.header-logo {
 	height: 100%;
-	background-color: yellow;
 	width: 20%;
 	display: inline-block;
-	vertical-align: middle;
-
+	position: relative;
 }
 
-.header-logo img{
+.header-logo img {
 	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
-.header-main{
+.header-main {
 	width: 80%;
-	background-color: purple;
 	display: inline-block;
+	float: right;
+	height: 45px;
+	padding: 0 70px;
+	box-sizing: border-box;
+}
+
+.header-main .links {.
+	height: 45px;
+	line-height: 45px;
+	font-size: 0.88em;
+}
+
+.header-main .links a {
+	color: #333333;
+}
+
+.header-main .links  a:nth-child(2){
 	float: right;
 }
 
-
-.header-main .links{
-background-color: peru;
-display: inline-block;
-
+.header-main .main-list{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.12em;
 }
 
-.header-main .main-list-item{
+.header-main .main-list-item {
 	display: inline-block;
-	margin-right: 20px;
+}
 
+.header-main .main-list-item a {
+	color: black;
+	text-decoration: none;
+}
+
+.header-main .main-list-item a:hover {
+	color: #f80000;
+}
+
+/*BANNER*/
+
+.banner {
+	background-image: url(../images/hero-finance-640x360.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	min-height: 500px;
+	position: relative;
+}
+
+.banner-bg {
+	background-image: url(../images/over-hero-banner.png);
+	height: 500px;
+	background-repeat: no-repeat;
+}
+
+.banner-text {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	margin-left: 60px;
+}
+
+.banner-text-title{
+	font-size: 2.12em;
 
 }
 
-.header-main .main-list-item a{
+.banner-text-text{
+	font-size: 1.12em;
+}
+
+.banner-text-contentButtons {
+	display: flex;
+}
+
+.banner-text-contentButtons .button {
+	margin-right: 8px;
+	padding: 18px 61px;
+	color: #006699;
+	font-size: 1.06em;
+}
+
+.banner-text-contentLinks {
+	display: flex;
+}
+
+.banner-text-contentLinks .link {
+		margin-right: 8px;
+	padding: 18px 4px;
 	color: white;
-	text-decoration: none;
+	font-size: 1.25em;
 }
