@@ -126,13 +126,32 @@ body, html {
 
 .banner-text-contentButtons .button {
 	margin-right: 8px;
-	padding: 18px 61px;
+	padding: 18px 30px;
 	color: #006699;
 	font-size: 1.06em;
+	min-width: 250px;
+}
+.banner-text-contentButtons .button span{
+	font-size: 1.3em;
+	margin-left: 25px;
+	position: relative;
+	top: 3px;
 }
 
 .banner-text-contentLinks {
 	display: flex;
+}
+.banner-text-contentLinks .iconOne{
+	position: relative;
+	font-size: 1.3em;
+	top: 45px;
+	right: 70px;
+}
+.banner-text-contentLinks .iconTwo{
+	position: relative;
+	font-size: 1.3em;
+	top: 45px;
+	right: 150px
 }
 
 .banner-text-contentLinks .link {
@@ -172,12 +191,21 @@ body, html {
 	justify-content: center;
 }
 
+.erpCloud-text-contentButtons span{
+	font-size: 1.3em;
+	margin-left:25px;
+	position: relative;
+	top: 3px;
+
+}
+
 .erpCloud-text-contentButtons .button{
-	padding: 18px 61px;
+	padding: 18px 30px;
 	margin: 10px;
 	border:1px solid #006699;
 	color: #006699;
 	background: transparent;
+	min-width: 250px;
 	}
 
 .erpCloud-text-contentButtons .button:hover{
@@ -268,13 +296,22 @@ body, html {
 	display: flex;
 	justify-content: center;
 }
+.planning-content-text .contentButtons span{
+	font-size: 1.3em;
+	margin-left:25px;
+	position: relative;
+	top: 3px;
+
+
+}
 
 .planning-content-text .contentButtons-button{
-	padding: 18px 61px;
+	padding: 18px 30px;
 	margin: 10px;
 	border: 1px solid #006699;
 	color: #006699;
 	background: transparent;
+	min-width: 250px;
 
 }
 
@@ -287,6 +324,7 @@ body, html {
 /*Footer*/
 
 .footer{
+	margin-bottom: 40px;
 
 }
 
@@ -372,3 +410,14 @@ body, html {
 	text-decoration: none;
 	padding: 10px;
 }
+.footer-contentBottom-listSocial .item-link span{
+	font-size: 1.7em;
+}
+.footer-contentBottom-listSocial .item-link:hover span:before{
+	color: red;
+}
+
+/*
+http://fontawesome.io/icons/
+https://icomoon.io/app/
+*/
