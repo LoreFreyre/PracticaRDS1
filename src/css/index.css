@@ -4,11 +4,9 @@
 body, html {
 	font-size: 16px;
 }
-
 .u-container{
 	max-width: 1245px;
 	margin: 00 auto;
-
 }
 
 /*.u-paddingOff{
@@ -20,14 +18,12 @@ body, html {
 .header {
 	height: 90px;
 }
-
 .header-logo {
 	height: 100%;
 	width: 20%;
 	display: inline-block;
 	position: relative;
 }
-
 .header-logo img {
 	width: 100%;
 	position: absolute;
@@ -37,7 +33,6 @@ body, html {
 	right: 0;
 	margin: auto;
 }
-
 .header-main {
 	width: 80%;
 	display: inline-block;
@@ -421,3 +416,5 @@ body, html {
 http://fontawesome.io/icons/
 https://icomoon.io/app/
 */
+
+/*Sass es un preporcesador de SCC (LESS STYLUS)*/
