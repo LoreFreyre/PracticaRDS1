@@ -1,81 +1,5 @@
 
-/*GENERAL*/
 
-body, html {
-	font-size: 16px;
-}
-.u-container{
-	max-width: 1245px;
-	margin: 00 auto;
-}
-
-/*.u-paddingOff{
-	padding: 0;
-}*/
-
-/* HEADER*/
-
-.header {
-	height: 90px;
-}
-.header-logo {
-	height: 100%;
-	width: 20%;
-	display: inline-block;
-	position: relative;
-}
-.header-logo img {
-	width: 100%;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
-}
-.header-main {
-	width: 80%;
-	display: inline-block;
-	float: right;
-	height: 45px;
-	padding: 0 70px;
-	box-sizing: border-box;
-}
-
-.header-main .links {.
-	height: 45px;
-	line-height: 45px;
-	font-size: 0.88em;
-}
-
-.header-main .links a {
-	color: #333333;
-}
-
-.header-main .links  a:nth-child(2){
-	float: right;
-}
-
-.header-main .main-list{
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: space-between;
-	font-size: 1.12em;
-}
-
-.header-main .main-list-item {
-	display: inline-block;
-}
-
-.header-main .main-list-item a {
-	color: black;
-	text-decoration: none;
-}
-
-.header-main .main-list-item a:hover {
-	color: #f80000;
-}
 
 /*BANNER*/
 
@@ -150,7 +74,7 @@ body, html {
 }
 
 .banner-text-contentLinks .link {
-		margin-right: 8px;
+	margin-right: 8px;
 	padding: 18px 4px;
 	color: white;
 	font-size: 1.25em;
